@@ -9,7 +9,7 @@ const TIME_PER_QUESTION = 120;
 let timeLeft = TIME_PER_QUESTION;
 let timerInterval = null;
 
-const correctMessages = ["😎 Lumayan", "🧠 Cerdas", "🔥 Luar biasa"];
+const correctMessages = ["😃 Lumayan", "😎 Cerdas seperti Ruru", "🔥 Luar biasa lanjutkan"];
 const wrongMessages = [
     "🤦 Bodoh",
     "🧠❌ Tolong jangan taruh otak anda di dengkul",
