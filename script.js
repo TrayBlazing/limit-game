@@ -4,7 +4,7 @@ let correctAnswer = 0;
 let gameOver = false;
 
 const TOTAL_QUESTIONS = 10;
-const TIME_PER_QUESTION = 10;
+const TIME_PER_QUESTION = 120;
 
 let timeLeft = TIME_PER_QUESTION;
 let timerInterval = null;
@@ -30,7 +30,7 @@ function startTimer() {
         timeLeft--;
         updateTimer();
         if (timeLeft <= 0) {
-            clearInterval(timerInterval);
+            clearInterval(timerIntglerval);
             nextQuestion();
         }
     }, 1000);
