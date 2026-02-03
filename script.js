@@ -4,7 +4,7 @@ let correctAnswer = 0;
 let gameOver = false;
 
 const TOTAL_QUESTIONS = 10;
-const TIME_PER_QUESTION = 120;
+const TIME_PER_QUESTION = 60;
 
 let timeLeft = TIME_PER_QUESTION;
 let timerInterval = null;
